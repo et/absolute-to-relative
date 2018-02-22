@@ -1,0 +1,24 @@
+{
+  "name": "absolute-to-relative",
+  "version": "1.0.0",
+  "description": "Converts absolute paths to relative paths",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Eric Thomas",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.1"
+  },
+  "dependencies": {
+    "recursive-readdir": "^2.2.2",
+    "xregexp": "^4.1.1"
+  }
+}
